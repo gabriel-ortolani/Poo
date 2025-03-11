@@ -1,0 +1,45 @@
+Poo
+Classe:
+Modelo para criar vários objetos(ambiente)
+          
+        Atributo     Ação
+Objeto(Propriedade, método)
+representação de algo do mundo real
+
+Pilares
+Abstração, encapsulamento, herança, polimorfismo
+
+class Aluno é um modelo para criar alunos(pessoas)
+constructor(nome,idade) cria Propriedades
+this.nome this.idade, significam este objeto
+podemos criar varias pessoas sem repitir o código
+
+Pilares
+Encapsulamento
+O encapsulamento protege informações privadas evitando mudanças acidentais Exemplo, um aluno tem uma nota secreta
+
+Herança(Reutilizar)
+Herança permite que uma classe aproveite caracteristicas de outra, evitando repetição
+Exemplo: cria a classe Pessoa que contem nome e idade, depois criar aluno e professor que herdam as caracteristicas de Pessoa
+
+Pessoa é a classe base contem as propriedade
+comun(nome, idade)
+
+aluno e professor herdam de pessoa
+
+Aluo tem o metodo estudar()
+professor tem o metodo ensinar()
+criamos os objetos e usamos os seus metódos
+
+polimorfismo:
+-Pessoa tem um metódo pedrão apresentar();
+-Aluno e Professor herdam esses metodo, mas reesecrevem para exibir mensagens diferentes.
+-Mesmo metodo e comportamentos diferentes isso é polimorfismo
+
+Abstração:
+Permite criar classes que não podem ser istanciadas diretamente, seguindo apenas como modelo base por outra classes. Evitando criaçãode objetos genéricos
+
+A clase pessoa não pode ser instanciada diretamente
+O if constructor impede que objetos iguais sejam criados
+O aluno herdam de pessoa, e então pode ser instanciado normalmente
+Isso garante que pessoa funcione como modelo para outras classes.
