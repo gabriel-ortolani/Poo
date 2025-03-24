@@ -60,13 +60,37 @@
     <title>Escola</title>
 </head>
 <body>
-    <div class="container">
-        <p><?php  $gabriel->falar(); ?></p>
-        <p><?php $gutin->falar(); ?></p>
-        <p><?php $miguel->falar(); ?></p>
-        <p><?php $carlos->falar(); ?></p>
-        <p><?php $raul->falar(); ?></p>
-        <p><?php $nadja->falar(); ?></p>
+    <div class="container d-flex cow col-sm-12">
+        <div class="card col-sm-6">
+            <div class="card-body">
+                <p class="card-text"><?php  $gabriel->falar(); ?></p>
+            </div>
+        </div>
+        <div class="card col-sm-6">
+            <div class="card-body">
+                <p class="card-text"><?php $gutin->falar(); ?></p>
+            </div>
+        </div>
+        <div class="card col-sm-6">
+            <div class="card-body">
+                <p class="card-text"><?php $miguel->falar(); ?></p>
+            </div>
+        </div>
+        <div class="card col-sm-6">
+            <div class="card-body">
+                <p class="card-text"><?php $carlos->falar(); ?></p>
+            </div>
+        </div>
+        <div class="card col-sm-6">
+            <div class="card-body">
+                <p class="card-text"><?php $raul->falar(); ?></p>
+            </div>
+        </div>
+        <div class="card col-sm-6">
+            <div class="card-body">
+                <p class="card-text"><?php $nadja->falar(); ?></p>
+            </div>
+        </div>
     </div>
 </body>
 </html>
