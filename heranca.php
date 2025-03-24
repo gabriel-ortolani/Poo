@@ -24,8 +24,8 @@ class Aluno extends Pessoa{
 
 // a classe professor herda de Pessoa
 class Professor extends Pessoa{
-    public function encinar(){
-        echo "{$this->nome} está encinando. <br>";
+    public function ensinar(){
+        echo "{$this->nome} está ensinando. <br>";
     }
 }
 
@@ -35,6 +35,6 @@ $raul = new Professor ("Raul", 38);
 $gabriel->apresentar();
 $gabriel->estudar();
 $raul->apresentar();
-$raul->encinar();
+$raul->ensinar();
 
 ?>
